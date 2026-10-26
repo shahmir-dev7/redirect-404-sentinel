@@ -1,0 +1,8 @@
+parameters:
+    level: 6
+    paths:
+        - includes
+        - redirect-404-sentinel.php
+        - uninstall.php
+    ignoreErrors:
+        - '#WP_CLI#'

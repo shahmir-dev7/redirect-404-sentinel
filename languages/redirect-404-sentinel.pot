@@ -1,0 +1,154 @@
+# Copyright (C) 2026 shahmir-dev7
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Redirect & 404 Sentinel 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/redirect-404-sentinel\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-26T09:28:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: redirect-404-sentinel\n"
+
+#. Plugin Name of the plugin
+#: redirect-404-sentinel.php
+msgid "Redirect & 404 Sentinel"
+msgstr ""
+
+#. Description of the plugin
+#: redirect-404-sentinel.php
+msgid "Logs 404 errors, suggests the closest matching page and creates 301 redirects in one click, with loop detection and CSV import/export."
+msgstr ""
+
+#. Author of the plugin
+#: redirect-404-sentinel.php
+msgid "shahmir-dev7"
+msgstr ""
+
+#: includes/Admin.php:36
+#: includes/Admin.php:188
+msgid "404 Sentinel"
+msgstr ""
+
+#: includes/Admin.php:63
+#: includes/Admin.php:178
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: includes/Admin.php:183
+msgid "Redirect created."
+msgstr ""
+
+#: includes/Admin.php:184
+msgid "Removed."
+msgstr ""
+
+#: includes/Admin.php:185
+msgid "That redirect would create a loop."
+msgstr ""
+
+#: includes/Admin.php:186
+msgid "Invalid input."
+msgstr ""
+
+#. translators: %d: number of imported redirects.
+#: includes/Admin.php:191
+#, php-format
+msgid "Imported %d redirects."
+msgstr ""
+
+#: includes/Admin.php:197
+msgid "Recent 404s"
+msgstr ""
+
+#: includes/Admin.php:198
+msgid "Path"
+msgstr ""
+
+#: includes/Admin.php:198
+msgid "Hits"
+msgstr ""
+
+#: includes/Admin.php:198
+msgid "Redirect to"
+msgstr ""
+
+#: includes/Admin.php:198
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin.php:201
+msgid "No 404s logged yet."
+msgstr ""
+
+#: includes/Admin.php:210
+msgid "Target URL"
+msgstr ""
+
+#: includes/Admin.php:212
+msgid "Create 301"
+msgstr ""
+
+#: includes/Admin.php:215
+msgid "Dismiss"
+msgstr ""
+
+#: includes/Admin.php:219
+msgid "Redirects"
+msgstr ""
+
+#: includes/Admin.php:224
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin.php:228
+msgid "Import / export"
+msgstr ""
+
+#: includes/Admin.php:229
+msgid "Export CSV"
+msgstr ""
+
+#: includes/Admin.php:232
+msgid "CSV file"
+msgstr ""
+
+#: includes/Admin.php:232
+msgid "Import"
+msgstr ""
+
+#: includes/Admin.php:234
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin.php:236
+msgid "Keep 404 log (days)"
+msgstr ""
+
+#: includes/Admin.php:237
+msgid "Save"
+msgstr ""
+
+#: includes/Redirects.php:64
+msgid "Invalid source path."
+msgstr ""
+
+#: includes/Redirects.php:67
+msgid "Invalid target."
+msgstr ""
+
+#: includes/Redirects.php:71
+msgid "Source and target are the same."
+msgstr ""
+
+#: includes/Redirects.php:74
+msgid "This redirect would create a loop."
+msgstr ""
+
+#: includes/Redirects.php:79
+msgid "Database error."
+msgstr ""
