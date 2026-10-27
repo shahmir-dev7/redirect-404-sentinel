@@ -12,7 +12,7 @@ jobs:
       - name: Build zip from .distignore
         run: |
           mkdir -p build/redirect-404-sentinel
-          rsync -a --exclude-from=.distignore --exclude=build --exclude=.git ./ build/redirect-404-sentinel/
+          rsync -a --exclude-from=.distignore --exclude=.distignore --exclude=build --exclude=.git ./ build/redirect-404-sentinel/
           (cd build && zip -rq ../redirect-404-sentinel-${GITHUB_REF_NAME#v}.zip redirect-404-sentinel)
       - uses: softprops/action-gh-release@v2
         with:
